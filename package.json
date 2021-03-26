@@ -3,6 +3,11 @@
 	"displayName": "enumerate",
 	"description": "enumerate with multiple selection",
 	"version": "0.0.1",
+    "publisher": "mtots",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/math4tots/enumerate"
+    },
 	"engines": {
 		"vscode": "^1.46.0"
 	},
