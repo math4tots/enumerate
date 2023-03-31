@@ -2,7 +2,7 @@
 	"name": "enumerate",
 	"displayName": "enumerate",
 	"description": "enumerate with multiple selection",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "mtots",
 	"repository": {
 		"type": "git",
@@ -14,6 +14,7 @@
 	"categories": [
 		"Other"
 	],
+	"activationEvents": [],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
