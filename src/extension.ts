@@ -21,6 +21,9 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(vscode.commands.registerTextEditorCommand('enumerate.enumerate1', editor => {
 		enumerator.enumerate(editor, { start: 1 });
 	}));
+	context.subscriptions.push(vscode.commands.registerTextEditorCommand('enumerate.enumerateInfer', editor => {
+		enumerator.inferAndEnumerate(editor);
+	}));
 }
 
 // this method is called when your extension is deactivated

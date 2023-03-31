@@ -3,11 +3,11 @@
 	"displayName": "enumerate",
 	"description": "enumerate with multiple selection",
 	"version": "0.0.1",
-    "publisher": "mtots",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/math4tots/enumerate"
-    },
+	"publisher": "mtots",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/math4tots/enumerate"
+	},
 	"engines": {
 		"vscode": "^1.46.0"
 	},
@@ -28,6 +28,10 @@
 			{
 				"command": "enumerate.enumerate1",
 				"title": "Enumerate from 1"
+			},
+			{
+				"command": "enumerate.enumerateInfer",
+				"title": "Enumerate (infers sequence from selection)"
 			}
 		]
 	},
