@@ -8,7 +8,7 @@ Users appreciate release notes as you update your extension.
 
 ### 0.0.3
 
-Make extension usable from web
+Make extension usable from the vscode.dev website
 
 ### 0.0.2
 
