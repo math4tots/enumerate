@@ -6,6 +6,10 @@ Dead simple vscode extension for quickly printing a list of numbers with multipl
 
 Users appreciate release notes as you update your extension.
 
+### 0.0.3
+
+Make extension usable from web
+
 ### 0.0.2
 
 Enumerate (Infer) command - will infer the sequence based on the first selection
